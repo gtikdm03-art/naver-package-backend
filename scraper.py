@@ -26,8 +26,6 @@ class NaverPackageScraper:
         현재는 Mock 데이터 반환
         """
         
-        # 실제 크롤링 구현 예정
-        # 지금은 테스트용 Mock 데이터
         return self._get_mock_data(destination)
     
     def _get_mock_data(self, destination: str) -> List[TravelPackage]:
@@ -35,7 +33,6 @@ class NaverPackageScraper:
         
         destination_name = self._get_destination_name(destination)
         
-        # 실제 검색하는 것처럼 딜레이
         time.sleep(random.uniform(0.5, 1.5))
         
         packages = [
@@ -48,7 +45,8 @@ class NaverPackageScraper:
                 duration="3박 4일",
                 airline="대한항공",
                 price="899,000",
-                productName=f"[{destination_name}] 자유여행 3박4일 (노쇼핑/노팁/노옵션)"
+                productName=f"[{destination_name}] 자유여행 3박4일 (노쇼핑/노팁/노옵션)",
+                url="https://package.naver.com"  # ✅ URL 추가!
             ),
             TravelPackage(
                 rank=2,
@@ -59,7 +57,8 @@ class NaverPackageScraper:
                 duration="4박 5일",
                 airline="아시아나항공",
                 price="1,199,000",
-                productName=f"[{destination_name}] 완전자유 4박5일 프리미엄 패키지"
+                productName=f"[{destination_name}] 완전자유 4박5일 프리미엄 패키지",
+                url="https://package.naver.com"  # ✅ URL 추가!
             ),
             TravelPackage(
                 rank=3,
@@ -70,7 +69,8 @@ class NaverPackageScraper:
                 duration="3박 4일",
                 airline="진에어",
                 price="699,000",
-                productName=f"[{destination_name}] 알뜰 자유여행 3박4일 (노팁)"
+                productName=f"[{destination_name}] 알뜰 자유여행 3박4일 (노팁)",
+                url="https://package.naver.com"  # ✅ URL 추가!
             ),
             TravelPackage(
                 rank=4,
@@ -81,7 +81,8 @@ class NaverPackageScraper:
                 duration="4박 5일",
                 airline="티웨이항공",
                 price="1,099,000",
-                productName=f"[{destination_name}] 청주출발 4박5일 자유여행"
+                productName=f"[{destination_name}] 청주출발 4박5일 자유여행",
+                url="https://package.naver.com"  # ✅ URL 추가!
             ),
             TravelPackage(
                 rank=5,
@@ -92,7 +93,8 @@ class NaverPackageScraper:
                 duration="5박 6일",
                 airline="대한항공",
                 price="1,499,000",
-                productName=f"[{destination_name}] 럭셔리 5박6일 완전자유 프리미엄"
+                productName=f"[{destination_name}] 럭셔리 5박6일 완전자유 프리미엄",
+                url="https://package.naver.com"  # ✅ URL 추가!
             ),
             TravelPackage(
                 rank=6,
@@ -103,7 +105,8 @@ class NaverPackageScraper:
                 duration="4박 5일",
                 airline="제주항공",
                 price="849,000",
-                productName=f"[{destination_name}] 가성비 4박5일 자유여행"
+                productName=f"[{destination_name}] 가성비 4박5일 자유여행",
+                url="https://package.naver.com"  # ✅ URL 추가!
             ),
             TravelPackage(
                 rank=7,
@@ -114,7 +117,8 @@ class NaverPackageScraper:
                 duration="3박 4일",
                 airline="에어부산",
                 price="799,000",
-                productName=f"[{destination_name}] 부산출발 알뜰 3박4일"
+                productName=f"[{destination_name}] 부산출발 알뜰 3박4일",
+                url="https://package.naver.com"  # ✅ URL 추가!
             ),
             TravelPackage(
                 rank=8,
@@ -125,7 +129,8 @@ class NaverPackageScraper:
                 duration="5박 6일",
                 airline="아시아나항공",
                 price="1,599,000",
-                productName=f"[{destination_name}] 프리미엄 5박6일 완전패키지"
+                productName=f"[{destination_name}] 프리미엄 5박6일 완전패키지",
+                url="https://package.naver.com"  # ✅ URL 추가!
             )
         ]
         
