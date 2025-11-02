@@ -12,7 +12,6 @@ class TravelPackage(BaseModel):
     airline: str
     price: str
     productName: str
-    url: str = ""  #
 
 class SearchRequest(BaseModel):
     """검색 요청 모델"""
