@@ -46,7 +46,6 @@ class NaverPackageScraper:
                 airline="대한항공",
                 price="899,000",
                 productName=f"[{destination_name}] 자유여행 3박4일 (노쇼핑/노팁/노옵션)",
-                url="https://package.naver.com"  # ✅ URL 추가!
             ),
             TravelPackage(
                 rank=2,
@@ -58,7 +57,6 @@ class NaverPackageScraper:
                 airline="아시아나항공",
                 price="1,199,000",
                 productName=f"[{destination_name}] 완전자유 4박5일 프리미엄 패키지",
-                url="https://package.naver.com"  # ✅ URL 추가!
             ),
             TravelPackage(
                 rank=3,
@@ -70,7 +68,6 @@ class NaverPackageScraper:
                 airline="진에어",
                 price="699,000",
                 productName=f"[{destination_name}] 알뜰 자유여행 3박4일 (노팁)",
-                url="https://package.naver.com"  # ✅ URL 추가!
             ),
             TravelPackage(
                 rank=4,
@@ -82,7 +79,6 @@ class NaverPackageScraper:
                 airline="티웨이항공",
                 price="1,099,000",
                 productName=f"[{destination_name}] 청주출발 4박5일 자유여행",
-                url="https://package.naver.com"  # ✅ URL 추가!
             ),
             TravelPackage(
                 rank=5,
@@ -94,7 +90,6 @@ class NaverPackageScraper:
                 airline="대한항공",
                 price="1,499,000",
                 productName=f"[{destination_name}] 럭셔리 5박6일 완전자유 프리미엄",
-                url="https://package.naver.com"  # ✅ URL 추가!
             ),
             TravelPackage(
                 rank=6,
@@ -106,7 +101,6 @@ class NaverPackageScraper:
                 airline="제주항공",
                 price="849,000",
                 productName=f"[{destination_name}] 가성비 4박5일 자유여행",
-                url="https://package.naver.com"  # ✅ URL 추가!
             ),
             TravelPackage(
                 rank=7,
@@ -118,7 +112,6 @@ class NaverPackageScraper:
                 airline="에어부산",
                 price="799,000",
                 productName=f"[{destination_name}] 부산출발 알뜰 3박4일",
-                url="https://package.naver.com"  # ✅ URL 추가!
             ),
             TravelPackage(
                 rank=8,
@@ -130,7 +123,6 @@ class NaverPackageScraper:
                 airline="아시아나항공",
                 price="1,599,000",
                 productName=f"[{destination_name}] 프리미엄 5박6일 완전패키지",
-                url="https://package.naver.com"  # ✅ URL 추가!
             )
         ]
         
